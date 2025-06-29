@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portal Alerta</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+    header {
+      background-color: #e30613; /* vermelho */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #0033a0; /* azul */
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 15px;
+    }
+    nav a:hover {
+      background-color: #e30613;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+    .highlight {
+      background-color: #f5f5f5;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 5px solid #e30613;
+    }
+    .news-list article {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+    }
+    footer {
+      background-color: #0033a0;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portal Alerta</h1>
+  </header>
+  <nav>
+    <a href="#">Política</a>
+    <a href="#">Esportes</a>
+    <a href="#">Economia</a>
+    <a href="#">Tecnologia</a>
+    <a href="#">Entretenimento</a>
+    <a href="#">Saúde</a>
+  </nav>
+  <main class="container">
+    <section class="highlight">
+      <h2>Notícia em destaque</h2>
+      <p>Aqui vai o texto da notícia principal do momento, com maior relevância.</p>
+    </section>
+    <section class="news-list">
+      <h2>Últimas Notícias</h2>
+      <article>
+        <h3>Título da Notícia 1</h3>
+        <p>Resumo da notícia 1...</p>
+      </article>
+      <article>
+        <h3>Título da Notícia 2</h3>
+        <p>Resumo da notícia 2...</p>
+      </article>
+      <article>
+        <h3>Título da Notícia 3</h3>
+        <p>Resumo da notícia 3...</p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Portal Alerta - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
